@@ -1,6 +1,16 @@
 const menus = [
   {id: '0', label: '控制面板', path: '/', icon: 'fa fa-dashboard'},
   {
+  	id: 'general',
+  	icon: 'fa fa-microchip',
+    label: '网站设置',
+    submenu: [
+    	['通用', [
+        {id: 'f1', name: 'c-button', label: '网站', icon: 'fa fa-hand-o-up'}
+      ]],
+    ]
+  },
+  {
     id: 'components',
     icon: 'fa fa-microchip',
     label: '组件',
